@@ -17,6 +17,7 @@
     box-sizing: border-box;
     background-color:var(--box-color);
     border-radius: 8px;
+    font-weight: bold;
 }
 
 
