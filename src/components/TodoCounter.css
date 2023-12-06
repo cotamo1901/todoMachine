@@ -1,0 +1,27 @@
+.todo__counter__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+ 
+}
+
+.title__todo {
+  color: var(--primary-text-color);
+  font-size: 4rem;
+  font-weight: bold;
+  margin-top: 6rem;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);}
+
+
+.subtitle__todo{
+color: var(--primary-text-color);
+font-size: 1.3rem;
+margin-top: 15px;
+font-weight: bold;
+text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.todo__work{
+    color: var(--secondary-text-color);
+}

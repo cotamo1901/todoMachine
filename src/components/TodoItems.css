@@ -1,0 +1,25 @@
+.todo-items-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:1rem;
+    
+}
+
+.todo-items-list{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    background-color:var(--box-color);
+    border-radius: 8px;
+}
+
+
+.todo-items-list span{
+    cursor: pointer;
+}

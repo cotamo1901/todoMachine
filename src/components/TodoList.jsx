@@ -1,9 +1,9 @@
-const TodoList = (props) => {
+
+
+export const TodoList = ({children}) => {
   return (
-   <ul>
-   {props.children}
+    <ul>
+   {children}
    </ul>
   )
 }
-
-export default TodoList

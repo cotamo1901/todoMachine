@@ -1,9 +1,19 @@
-export const TodoItems = () => {
+
+import './TodoItems.css'
+export const TodoItems = (props) => {
   return (
-    <li>
-      <span>V</span>
-      <p>Llorar con la Llorona</p>
+    <>
+    <div className="todo-items-container">
+
+    <li className="todo-items-list">
+      <span>V{props.completed}</span>
+      <p>{props.text}</p>
       <span>X</span>
     </li>
+
+
+    </div>
+    
+    </>
   );
 };

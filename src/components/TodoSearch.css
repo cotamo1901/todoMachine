@@ -1,0 +1,12 @@
+.todo-search-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.todo-placeholder{
+    border-radius: 13px;
+    width: 300px;
+    height: 25px;
+}
