@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: center;
     margin-top:1rem;
-    
+
 }
 
 .todo-items-list{
@@ -15,12 +15,20 @@
     padding: 10px;
     border: 1px solid #ccc;
     box-sizing: border-box;
-    background-color:var(--box-color);
+    background-color:rgb(233, 212, 212);
     border-radius: 8px;
     font-weight: bold;
 }
 
+.icon-check-active{
+    color: rgb(38, 201, 23);
+  
+} 
 
+.todoItem-p--complete{
+    text-decoration: line-through;
+
+}
 .todo-items-list span{
     cursor: pointer;
 }

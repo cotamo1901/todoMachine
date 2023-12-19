@@ -5,7 +5,10 @@ export const TodoSearch = () => {
     <>
       <div className="todo-search-container">
         <div className="todo-text">
-        <input className='todo-placeholder' type="text" placeholder="search..." />
+        <input  className='todo-placeholder' type="text" placeholder="search..." onChange={(e)=>{
+          console.log("searching...")
+          console.log(e.target.value)
+        }} />
 
 
         </div>

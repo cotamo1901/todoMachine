@@ -3,7 +3,9 @@ import "./TodoCreateButton.css";
 export const TodoCreateButton = () => {
   return (
     <div className="todo-button-container">
-      <button className="todo-button" type="submit">
+      <button onClick={()=>{
+        console.log("clicked")
+      }} className="todo-button" type="submit">
         <svg 
         className="custom-svg"
           xmlns="http://www.w3.org/2000/svg"
