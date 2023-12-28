@@ -1,19 +1,19 @@
-import './TodoSearch.css'
-import { useState } from 'react'; // import useState
+import "./TodoSearch.css";
 
-
-export const TodoSearch = () => {
-  const [search, setSearch] = useState('') // declare a state variable called search and initialize it to an empty string
-  console.log(search)
+export const TodoSearch = ({ search, setSearch }) => {
   return (
     <>
       <div className="todo-search-container">
         <div className="todo-text">
-        <input  className='todo-placeholder' type="text" placeholder="search..." value={search} onChange={(e)=>{
-          setSearch(e.target.value)
-        }} />
-
-
+          <input
+            className="todo-placeholder"
+            type="text"
+            placeholder="search..."
+            value={search}
+            onChange={(e) => {
+              setSearch(e.target.value);
+            }}
+          />
         </div>
       </div>
     </>
